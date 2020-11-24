@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+  background-color: #6b7fbe;
+  color: #ffffff;
+  padding: 1.5em;
+  width: 100%;
+  position:fixed; 
+  top: 0.1;     
+}
+.compose-btn {
+  background-color: Transparent;
+  color: #ffffff;
+  border: none;
+}
+nav .title{
+  font-family: 'Bungee', cursive;
+}
+
+
+
+.compose-btn:focus {
+  outline:0;
+}
+
+nav .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
+nav #arrow {
+  height: 25px;
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+}

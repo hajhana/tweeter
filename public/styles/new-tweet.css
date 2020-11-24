@@ -1,0 +1,124 @@
+.new-tweet {
+  margin-top: 3em;
+  margin-bottom: 2.5em;
+}
+
+
+.tweetBtn {
+  font-family: 'Bungee', cursive;
+  background-color: #4056A1;
+  color: #ffffff;
+}
+
+#tweet-text {
+  margin-top: 5px;
+  padding-bottom: 2em;
+  width: 100%;
+  height: 20%;
+  background-color: #f4f1ec;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  height: 35px;
+}
+
+
+.counter {
+  font-family: 'Bungee', cursive;
+}
+
+.icons {
+  display: none;
+}
+
+
+
+article.tweet {
+  border: 3px solid black;
+  margin-bottom: 2.5em;
+  padding: 0.5em;
+}
+
+article.tweet header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4em;
+}
+
+
+
+article.tweet:hover {
+  box-shadow: 7px 7px 0px #98AFC7;
+}
+
+article.tweet:hover .icons{
+  display: block;
+}
+
+
+img.profile-picture {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5em;
+}
+
+
+article.tweet .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 300;
+}
+
+article.tweet .name {
+  display: inline-block;
+}
+
+article.tweet .handle {
+  color: #98AFC7;
+}
+
+
+article.tweet .content {
+  margin: 1.5em 0.7em 1.5em 0.7em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+article.tweet .fa {
+  color: #3647da;
+  padding: 0.25em;
+}
+
+.error {
+  color: #e00d18;
+  display: flex; 
+  align-items: center;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color:  #df262f;
+  padding: 0.3em;
+}
+
+
+.tweet-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+
+
+article.tweet footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px solid black;
+  font-size: medium;
+  padding: 0.8em;
+}
+

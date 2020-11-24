@@ -1,0 +1,16 @@
+.main-header {
+  height: 500px;
+  width: 100%;
+  background-color:orange ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/cubes.png");
+  margin-top: 120px;
+}
+
+header.main-header .name {
+  color: white;
+  font-weight: bold;
+}
