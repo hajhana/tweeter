@@ -11,9 +11,12 @@ This repository is the starter code for the project: Students will fork and clon
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 ## Screenshots
+### This is a start page.
 !["This is a start page."](https://github.com/hajhana/tweeter/blob/master/docs/Start%20page.png)
+### Errors.
 !["This is a long tweet error page."](https://github.com/hajhana/tweeter/blob/master/docs/Too%20long%20tweet.png)
 !["This is a empty tweet error page."](https://github.com/hajhana/tweeter/blob/master/docs/Empty%20tweet.png)
+### Adding Tweetes.
 !["This is a tweets page."](https://github.com/hajhana/tweeter/blob/master/docs/Tweet%20posted.png)
 
 ## Dependencies
